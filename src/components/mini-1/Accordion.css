@@ -1,0 +1,48 @@
+.accordion {
+  background: brown;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  height: 100vh;
+  padding: 10px 0;
+}
+.accordion > button {
+  background: burlywood;
+  padding: 8px 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.accordion ul {
+  border: 2px solid beige;
+  margin: 10px 0;
+  padding: 10px 5px;
+  transition: 0.6s;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 100%;
+}
+.accordion ul li {
+  list-style: none;
+  font-size: 1rem;
+}
+.accordion ul li:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+.accordion ul li span {
+  background-color: orangered;
+  padding: 4px 7px;
+  color: white;
+  border-radius: 8px;
+}
+.accordion ul li:nth-child(2) {
+  padding: 10px;
+}
+.accordion ul:hover {
+  background-color: blanchedalmond;
+  color: brown;
+}
