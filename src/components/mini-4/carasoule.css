@@ -1,0 +1,51 @@
+.slider {
+  width: 650px;
+  height: 450px;
+  position: relative;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 90px;
+  margin: auto;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0.7, #666);
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.arrow-left {
+  position: absolute;
+  left: 2rem;
+}
+.arrow-right {
+  position: absolute;
+  right: 2rem;
+}
+.img-circle {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 4px;
+  padding: 0.5rem 0.5rem;
+}
+.btn-cirle {
+  background-color: gray;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.active-cirle {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+.hide-image {
+  display: none;
+}
