@@ -1,0 +1,25 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fff;
+  padding: 10px;
+}
+.tab-btn {
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+}
+.content {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+
+  background-color: white;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+}

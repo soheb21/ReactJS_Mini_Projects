@@ -11,7 +11,7 @@ const Carasoul = ({ url, limit, page }) => {
     const fetchData = async () => {
         try {
             setLoading(true);
-            const res = await fetch(`${url}?page=${page}&limit=${limit}`);
+            const res = await fetch(`?page=${page}&limit=${limit}`);
             const result = await res.json();
             if (result) {
                 setdata(result);
