@@ -19,3 +19,15 @@ body {
 .container {
   padding: 5%;
 }
+button {
+  background-color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+button:hover {
+  background-color: orange;
+  color: white;
+  transform: scale(1.1);
+}

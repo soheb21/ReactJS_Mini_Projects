@@ -1,0 +1,53 @@
+.outside {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 300ms;
+  animation: animateModel;
+  animation-duration: 0.7s;
+}
+.outside-hide {
+  display: none;
+}
+.inside {
+  height: 500px;
+  width: 600px;
+  border-radius: 32px;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+.inside > h1 {
+  position: sticky;
+  top: 0;
+}
+.inside > h1 > button {
+  position: absolute;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 8px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.inside-content {
+  flex: 1;
+}
+@keyframes animateModel {
+  from {
+    top: -200px;
+  }
+  to {
+    top: 0px;
+  }
+}

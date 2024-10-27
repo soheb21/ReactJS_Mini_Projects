@@ -1,5 +1,8 @@
 import './App.css'
 import Accordion from './components/mini-1/Accordion'
+import Model from './components/mini-10/Model'
+import SearchSuggestion from './components/mini-11/searchSuggestion'
+import TicTacToe from './components/mini-12/TicTacToe'
 import RandomColor from './components/mini-2/RandomColor'
 import StartGiven from './components/mini-3/StartGiven'
 import Carasoul from './components/mini-4/Carasoul'
@@ -26,7 +29,12 @@ function App() {
       {/* <QRGenerator/> */}
       {/* <ThemeChanger /> */}
       {/* <ProgressBar /> */}
-      <Tab />
+      {/* <Tab /> */}
+      {/* <Prac /> */}
+
+      {/* <Model /> */}
+      {/* <SearchSuggestion/> */}
+      <TicTacToe />
     </>
   )
 }
