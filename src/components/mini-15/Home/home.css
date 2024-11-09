@@ -1,0 +1,13 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-content: center;
+  place-items: center;
+  padding: 2rem;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
